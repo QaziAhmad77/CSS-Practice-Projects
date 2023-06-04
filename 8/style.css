@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  html,
+  body {
+    display: flex;
+    scroll-behavior: smooth;
+  }
+  aside {
+    border: 1px solid #ccc;
+    height: 310vh;
+  }
+  aside h1 {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    font-size: 25px;
+  }
+  aside ul li {
+    list-style: none;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  aside ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  aside ul li:hover {
+    background-color: #ccc;
+    transition: 0.3s ease-in-out;
+  }
+  main {
+    padding: 20px;
+  }
+  main h1 {
+    padding: 10px;
+    font-size: 40px;
+    border-bottom: 1px solid #ccc;
+  }
+  main p {
+    padding: 20px;
+    text-align: justify;
+  }
+  main ul li {
+    margin-left: 50px;
+    margin-bottom: 8px;
+  }

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Website</title>
+  </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+    nav {
+      background-color: royalblue;
+      color: white;
+    }
+    .lists,
+    li {
+      list-style: none;
+      display: inline;
+      font-size: 25px;
+      font-weight: 1000;
+      margin-left: 10px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+    nav h3 {
+      font-size: 40px;
+      margin-left: 20px;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+    }
+    nav ul li {
+      border-bottom: 20px solid transparent;
+      transition: 0.3s ease-in;
+    }
+    nav ul li:hover {
+      border-bottom: 2px solid white;
+    }
+    /* Music section */
+    .music_section {
+      background-image: url(images/hero_image.png);
+      height: 100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .ipade_image {
+      text-align: center;
+      margin-top: -400px;
+      position: relative;
+      top: 500px;
+    }
+    .music_section h1 {
+      font-size: 72px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .music_section h2 {
+      font-size: 40px;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    .music_section p {
+      font-size: 25px;
+      text-align: justify;
+    }
+    .content_pic_section {
+      display: flex;
+      flex-direction: column;
+    }
+    .ipade_section {
+      background-color: rgb(27, 20, 101);
+      color: white;
+      padding: 50px;
+    }
+    .ipade_section h1 {
+      font-size: 50px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .ipade_section h3 {
+      font-size: 35px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .ipade_section p {
+      font-size: 25px;
+      text-align: justify;
+      margin-bottom: 20px;
+    }
+    .btn {
+      font-size: 30px;
+      text-align: center;
+    }
+    button {
+      font-size: 30px;
+      border-radius: 10px;
+      padding: 10px;
+      background-color: red;
+      margin-bottom: 20px;
+      transition: 0.3s ease-in-out;
+      color: white;
+    }
+    button:hover {
+      background-color: rgb(113, 17, 17);
+    }
+    .third {
+      padding: 80px;
+      margin-top: 500px;
+    }
+    .third h1 {
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .third p {
+      font-size: 20px;
+      text-align: justify;
+      margin-bottom: 20px;
+    }
+    .third .third_image {
+      text-align: center;
+    }
+    .fourth{
+        background-image: url(images/video.png);
+        height:500px ;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .fourth h2{
+        color: white;
+        font-size: 25px;
+        text-align: justify;
+        padding: 130px 20px;
+    }
+  </style>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div class="head">
+            <h3>myTunes</h3>
+            <div class="lists">
+              <ul>
+                <a href="#overview"><li>Overview</li></a>
+                <a href="#music"><li>Music</li></a>
+                <a href="#video"><li>Video</li></a>
+                <a href="#gift"><li>Gift Cards</li></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="music_section">
+      <div class="container">
+        <div class="music_content">
+          <h1>my Tunes</h1>
+          <h2>Your music, moies, and TV shows take center stage</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
+            tempora voluptatibus, explicabo qui necessitatibus accusantium in
+            nulla iure numquam consequuntur dolores maiores ab et exercitationem
+            nam minus voluptates rem repudiandae.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="ipade_section">
+      <div class="container">
+        <div class="content_pic_section">
+          <h1>Music</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
+            tempora voluptatibus, explicabo qui necessitatibus accusantium in
+            nulla iure numquam consequuntur dolores maiores ab et exercitationem
+            nam minus voluptates rem repudiandae. Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Deserunt tempora voluptatibus,
+            explicabo qui necessitatibus accusantium in nulla iure numquam
+            consequuntur dolores maiores ab et exercitationem nam minus
+            voluptates rem repudiandae.
+          </p>
+          <div class="btn">
+            <button>Start Your Trail Now</button>
+          </div>
+          <h3>Orange Music is avialable in myTunes, and for iOS and Android</h3>
+          <div class="ipade_image">
+            <img src="images/ipad-iphone.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="third">
+      <div class="container">
+        <h1>The movie and TV collection you always whished for.</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ab id
+          corrupti quibusdam fuga quasi dicta placeat sed hic provident, modi
+          maiores impedit! Aperiam possimus nisi sit! Sed, quod impedit. Cumque
+          nobis maxime sunt enim praesentium labore perspiciatis. Quas illo
+          officiis, voluptatibus temporibus sit cupiditate fuga eaque, id esse
+          iste labore officia consequatur, corporis rem ratione iusto quia minus
+          odio.
+        </p>
+        <div class="btn"><button>Read more</button></div>
+        <div class="third_image">
+          <img src="images/mac.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="fourth">
+      <div class="container">
+        <h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dolorem
+          ab pariatur tempore reprehenderit magni numquam harum voluptatem.
+          Quasi, ipsa. Repellendus amet, provident vel quod voluptatem dolores
+          voluptatibus dolorum dolore? Animi culpa eum facere? Hic, neque
+          reprehenderit voluptatem, impedit facere aut labore, veniam minus
+          nesciunt unde saepe vitae officiis a aspernatur nam aliquam fugit
+          quis! Vel nobis unde hic facilis. Architecto rerum odit mollitia
+          dolorum repellat dolore quisquam, velit eaque quae eligendi quo quidem
+          pariatur amet, facilis exercitationem est quas non iste inventore
+          assumenda quasi libero? Corporis error ut adipisci!
+        </h2>
+      </div>
+    </section>
+  </body>
+</html>
